@@ -5,7 +5,7 @@ namespace luxofttest
 {
     class Program
     {
-        private static string[] daysOfTheWeek = new string[] { "Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun" };
+        private static readonly string[] daysOfTheWeek = new string[] { "Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun" };
 
         static void Main(string[] args)
         {
