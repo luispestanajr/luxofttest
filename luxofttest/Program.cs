@@ -24,7 +24,7 @@ namespace luxofttest
             Console.ReadKey();
         }
 
-        public static string GetNextDayOfTheWeekName(string dayOfTheWeek, int daysFoward)
+        private static string GetNextDayOfTheWeekName(string dayOfTheWeek, int daysFoward)
         {
             // I like to separate my code in simple and small functions. First because it will be more
             // testable. Also, because I follow the SOLID, in this case, the "S" for Single Responsability
@@ -38,7 +38,7 @@ namespace luxofttest
             return result;
         }
 
-        public static int GetFormula(int daysFoward, int indexSearch)
+        private static int GetFormula(int daysFoward, int indexSearch)
         {
             // Why do I not return the function in one simple statment? Because in this way, it will 
             // be easy to debug
